@@ -251,6 +251,10 @@ section:last-child {
     column-count: 2;
   }
 }
+#headshot {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
 
 @media all and (max-width: 601px) {
   #cv {
